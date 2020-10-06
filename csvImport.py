@@ -6,7 +6,7 @@ import datetime
 from ReadCsv import ReadCsv
 import ssl
 
-# 忽略憑證驗證
+
 ssl._create_default_https_context = ssl._create_unverified_context
 class Main():
 
