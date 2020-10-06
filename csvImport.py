@@ -1,6 +1,5 @@
 import glob
 import os
-import glob
 from tcms_api import TCMS
 import datetime
 from ReadCsv import ReadCsv
