@@ -1,9 +1,9 @@
-class ReadCsv():
+class read_csv():
 
-    def readCsv(self,pathOfCsv):
+    def read_csv(self, path_of_csv):
         output = []
-        csvFile = open(pathOfCsv, newline='',encoding="utf-8")
-        for line in csvFile:
+        csv_file = open(path_of_csv, newline='',encoding="utf-8")
+        for line in csv_file:
             row = [line]
             output.append(row)
         return output
