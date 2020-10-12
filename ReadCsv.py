@@ -1,4 +1,4 @@
-class read_csv():
+class ReadCsv():
 
     def read_csv(self, path_of_csv):
         output = []
